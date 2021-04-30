@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../Header/Header';
+import TopBaner from '../TopBaner/TopBaner';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <h3>This home</h3>
+           <TopBaner></TopBaner>
         </div>
     );
 };

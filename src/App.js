@@ -6,18 +6,20 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <Router>
+      <Header/>
       <Switch>
-        <Route to='/'>
+        <Route exact path='/'>
           <Home/>
         </Route>
-        <Route to='/home'>
+        <Route path='/home'>
           <Home/>
         </Route>
-        <Route to='/about'>
+        <Route path='/about'>
           <About/>
         </Route>
       </Switch>

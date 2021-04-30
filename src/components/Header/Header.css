@@ -1,0 +1,16 @@
+.header-container{
+    background-color: #000000;
+}
+.header-container .menu .menu-link{
+    color: #fff!important;
+    margin-left: 20px;
+}
+.menu .menu-link:hover{
+    color: #FF0077 !important; 
+}
+.menu .menu-link.active{
+    color: #FF0077 !important; 
+}
+.menu > .resume-btn {
+    color: #FF0077 !important;
+}
