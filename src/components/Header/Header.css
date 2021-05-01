@@ -8,9 +8,26 @@
 .menu .menu-link:hover{
     color: #FF0077 !important; 
 }
+.navbar-toggler .navbar-toggler-icon{
+    color: #fff !important;
+}
+.menu .menu-link{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: auto;
+}
 .menu .menu-link.active{
     color: #FF0077 !important; 
 }
-.menu > .resume-btn {
+.menu .resume-btn{
     color: #FF0077 !important;
+    border: 2px solid #FF0077;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
 }
+.menu .resume-btn:hover{
+    color: #fff !important;
+    background-color: #FF0077;
+}
+
