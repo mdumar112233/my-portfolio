@@ -6,7 +6,7 @@ import facebook from '../../images/facebook.png';
 import github from '../../images/github(2).png';
 
 const Contact = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
     return (
         <div className='contact-container'>
