@@ -1,0 +1,30 @@
+.projects{
+    margin: 0 auto;
+    color: #fff;
+}
+.projects-container{
+    height: 500px;
+    margin-top: 100px;
+}
+.projects-img img{
+    width: 420px;
+    height: 330px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.technology span{
+    background-color: #eee;
+    margin: 6px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    line-height: 20px;
+    color: #4B5769;
+}
+.card-body{
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.github img{
+    height: 20px;
+    font-weight: bold;
+}

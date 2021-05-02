@@ -32,8 +32,8 @@ const TopBaner = () => {
                             }}        
                         />
                     </div>
-                    <div className='mt-4'>
-                        <button className='about-me me-3'>About me</button>
+                    <div className='mt-4 about'>
+                        <button className='about-me-btn me-3' type='button'>About me</button>
                         <span><button className='get-in-touch'>Get in Touch</button></span>
                     </div>
                 </div>

@@ -1,19 +1,17 @@
 .top-baner{
-    background: #151515 url('../../images/intro-bg.jpg') no-repeat center bottom;
+    background:url('../../images/intro-bg.jpg') no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
     min-height: 600px;
-    position: relative;
     width: 100%;
     height: 600px;
-    z-index: -2;
 }
 .overlay{
     position: absolute;
-    top: 0;
+    top: 65px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 600px;
     background: #111111;
     opacity: .85;
 }
@@ -42,13 +40,14 @@
 .inside-baner{
     margin-top: 10rem;
 }
-.about-me{
+.about-me-btn{
     background-color: transparent;
     border: 0;
     color: #fff;
     border: 2px solid rgba(117, 116, 116, 0.856);
     padding: 12px 25px;
     font-weight: bold;
+    z-index: -1;
 }
 .get-in-touch{
     background-color: transparent;
@@ -58,7 +57,7 @@
     padding: 12px 25px;
     font-weight: bold;
 }
-.about-me:hover{
+.about-me-btn:hover{
     border: 2px solid #FF0077;
 }
 .get-in-touch:hover{

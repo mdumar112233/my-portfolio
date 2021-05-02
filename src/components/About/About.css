@@ -1,0 +1,22 @@
+.about-container{
+    height: 500px;
+    margin-top: 100px;
+}
+.about-me img{
+    height: 200px;
+    margin: 0 auto;
+}
+.about-me h6{
+    color: rgb(143, 140, 140);
+    line-height: 22px;
+}
+.skills p{
+    color: rgb(143, 140, 140);
+    font-weight: bold;
+}
+.skillbar-title{
+    background-color: #2d3436;
+}
+.skillbar-bar{
+    background-color: #636e72;
+}

@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="header-container">
             <div>
-                <Navbar expand="lg" style={{height: '65px', color: ''}}>
-                <Navbar.Brand style={{fontSize: '30px', fontWeight: 'bold', color: '#fff'}} href="/home">U</Navbar.Brand>
+                <Navbar expand="lg" style={{height: '65px', color: 'red'}}>
+                <Navbar.Brand style={{fontSize: '30px', fontWeight: 'bold', color: '#fff', marginLeft: '100px'}} href="/home">U</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto text-center menu">

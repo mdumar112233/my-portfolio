@@ -5,11 +5,14 @@
     color: #fff!important;
     margin-left: 20px;
 }
+.menu{
+    margin-right: 100px;
+}
 .menu .menu-link:hover{
     color: #FF0077 !important; 
 }
 .navbar-toggler .navbar-toggler-icon{
-    color: #fff !important;
+   background-color: #FF0077 !important;
 }
 .menu .menu-link{
     background-color: hsl(0, 0%, 0%);
