@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div className='projects-container'>
             <div className="text-center mb-5">
-                <h2 style={{color: '#FF0077',fontWeight: 'bold'}}>PROJECTS</h2>
+                <h2 style={{color: '#FF0077',fontWeight: 'bold', paddingTop: '40px'}}>PROJECTS</h2>
                 <h4>Check Out Some of My Works</h4>
             </div>
             <div>
