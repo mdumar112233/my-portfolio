@@ -2,6 +2,9 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import picture from '../../images/Gallery_1606626778263(1).png';
 import './TopBaner.css';
+import linkedin from '../../images/linkedin.png';
+import facebook from '../../images/facebook.png';
+import github from '../../images/github(2).png';
 
 const TopBaner = () => {
     return (
@@ -34,13 +37,18 @@ const TopBaner = () => {
                     </div>
                     <div className='mt-4 about'>
                         <button className='about-me-btn me-3' type='button'>About me</button>
-                        <span><button className='get-in-touch'>Get in Touch</button></span>
+                        <span><button className='get-in-touch'>Download CV</button></span>
                     </div>
                 </div>
-                <div className="col-md-6 my-img">
+                <div className="col-md  my-img">
                     <div className="outline"></div>
                     <img src={picture} alt=""/>
                 </div>
+                <div className='social text-center mt-5 social-icon'>
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mdumar.faruk.3139241"><img src={facebook} alt=""/></a>
+                        <span><a target="_blank" rel="noreferrer" href="https://github.com/mdumar112233"><img src={github} alt=""/></a></span>
+                        <span><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/umar-faruk-89a480185/"><img src={linkedin} alt=""/></a></span>
+            </div>
             </div>
         </div>
         </div>

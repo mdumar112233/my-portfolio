@@ -63,3 +63,6 @@
 .get-in-touch:hover{
     border: 2px solid #FF0077;
 }
+.social-icon{
+    z-index: 2;
+}
