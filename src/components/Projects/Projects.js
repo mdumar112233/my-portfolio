@@ -34,12 +34,12 @@ const Projects = () => {
                         </div>
                         <div className='d-flex'>
                             <div className="github mt-5 me-3">
-                                <a target='_blank' href="https://github.com/mdumar112233/ak-industry-assignment-11-client">
+                                <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/ak-industry-assignment-11-client">
                                     <img src={github} alt=""/>
                                 </a>
                             </div>
                             <div className="live-site mt-5">
-                                <a target='_blank' href="https://ak-inductry-auth.web.app/">
+                                <a target='_blank' rel="noreferrer" href="https://ak-inductry-auth.web.app/">
                                     <img src={link} alt=""/>
                                 </a>
                             </div>
@@ -66,12 +66,12 @@ const Projects = () => {
                         </div>
                         <div className='d-flex'>
                             <div className="github mt-5 me-3">
-                                <a target='_blank' href="https://github.com/mdumar112233/one-call-ride-assignment-9">
+                                <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/one-call-ride-assignment-9">
                                     <img src={github} alt=""/>
                                 </a>
                             </div>
                             <div className="live-site mt-5">
-                                <a target='_blank' href="https://react-assignment-9.web.app/home">
+                                <a target='_blank' rel="noreferrer" href="https://react-assignment-9.web.app/home">
                                     <img src={link} alt=""/>
                                 </a>
                             </div>
@@ -96,19 +96,19 @@ const Projects = () => {
                         </div>
                         <div className='d-flex'>
                             <div className="github mt-5 me-3">
-                                <a target='_blank' href="https://github.com/mdumar112233/soccer-master-assignment-8">
+                                <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/soccer-master-assignment-8">
                                     <img src={github} alt=""/>
                                 </a>
                             </div>
                             <div className="live-site mt-5">
-                                <a target='_blank' href="https://604a31a785e99b09988f5055--silly-hamilton-0c53fc.netlify.app/">
+                                <a target='_blank' rel="noreferrer" href="https://604a31a785e99b09988f5055--silly-hamilton-0c53fc.netlify.app/">
                                     <img src={link} alt=""/>
                                 </a>
                             </div>
                         </div>
                     </div>
                     </div>
-                </div>
+                 </div>
                 </div>
             </div>
         </div>
