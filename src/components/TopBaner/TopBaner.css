@@ -57,6 +57,10 @@
     padding: 12px 25px;
     font-weight: bold;
 }
+.about span a{
+    text-decoration: none;
+    color: #fff;
+}
 .about-me-btn:hover{
     border: 2px solid #FF0077;
 }

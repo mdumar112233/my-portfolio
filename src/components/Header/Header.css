@@ -5,8 +5,8 @@
     color: #fff!important;
     margin-left: 20px;
 }
-.menu{
-    margin-right: 100px;
+.collapsed{
+    width: unset !important;
 }
 .menu .menu-link:hover{
     color: #FF0077 !important; 
@@ -16,7 +16,7 @@
 }
 .menu .menu-link{
     background-color: hsl(0, 0%, 0%);
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .menu .menu-link.active{
@@ -33,4 +33,6 @@
     color: #fff !important;
     background-color: #FF0077;
 }
-
+.navbar-collapse{
+    z-index: 2;
+}

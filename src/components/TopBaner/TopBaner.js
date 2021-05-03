@@ -37,7 +37,7 @@ const TopBaner = () => {
                     </div>
                     <div className='mt-4 about'>
                         <button className='about-me-btn me-3' type='button'>About me</button>
-                        <span><button className='get-in-touch'>Download CV</button></span>
+                        <span><a rel="noreferrer" href='https://drive.google.com/uc?export=download&id=17z45BnAgosSL1GyXQHLQ3-IRxh-zksdq' className='get-in-touch'>Download CV</a></span>
                     </div>
                 </div>
                 <div className="col-md  my-img">

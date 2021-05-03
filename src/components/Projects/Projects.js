@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
             <div className='row'>
                 <div className="col-md-6">
-                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
+                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment11} class="card-img-top" alt=""/>
                     <div class="card-body" style={{backgroundColor: '#172A45', height: '330px'}}>
                         <h3 class="card-title">Ak Industry</h3>
@@ -26,7 +26,7 @@ const Projects = () => {
                             <span>Node.js</span>
                             <span>Express.js</span>
                             <span>MongoDB</span> 
-                            <span>Strip.js</span><br/> <br/>
+                            <span>Strip.js</span>
                             <span>Firebase</span>
                             <span>Bootstrap4</span>
                         </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
                 </div>
                     <div className="col-md-6">
-                    <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
+                    <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment9} alt=""/>
                     <div class="card-body" style={{backgroundColor: '#172A45', height: '330px'}}>
                         <h3 class="card-title">One Call Riders</h3>
@@ -55,7 +55,7 @@ const Projects = () => {
                             <span>React.js</span>
                             <span>Firebase</span>
                             <span>React Router</span>
-                            <span>Google map</span> <br/><br/>
+                            <span>Google map</span>
                             <span>Bootstrap4</span>
                         </div>
                         <div className='d-flex'>

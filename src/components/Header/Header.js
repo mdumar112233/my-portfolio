@@ -5,9 +5,9 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header-container">
-            <div>
+            <div className='container'>
                 <Navbar expand="lg" style={{height: '65px', color: 'red'}}>
-                <Navbar.Brand style={{fontSize: '30px', fontWeight: 'bold', color: '#fff', marginLeft: '100px'}} href="/home">U</Navbar.Brand>
+                <Navbar.Brand style={{fontSize: '30px', fontWeight: 'bold', color: '#fff'}} href="/home">U</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto text-center menu">
@@ -16,7 +16,7 @@ const Header = () => {
                         <Nav.Link className='menu-link' href="/work">Work</Nav.Link>
                         <Nav.Link className='menu-link' href="/blog">Blog</Nav.Link>
                         <Nav.Link className='menu-link'  href="/contact">Contact</Nav.Link>
-                        <Nav.Link className='resume-btn'  href="/contact">Resume</Nav.Link>
+                        <Nav.Link className='menu-link resume-btn' rel="noreferrer" target='_blank'  href="https://drive.google.com/file/d/17z45BnAgosSL1GyXQHLQ3-IRxh-zksdq/view?usp=sharing">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>

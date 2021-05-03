@@ -11,18 +11,17 @@
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
+.technology{
+    display: flex;
+    flex-wrap: wrap;
+}
 .technology span{
     background-color: #eee;
     margin: 6px;
     padding: 4px 6px;
     border-radius: 3px;
-    line-height: 20px;
     color: #4B5769;
 }
-/* .card-body{
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
-} */
 .github img{
     width: 20px;
     height: 20px;
