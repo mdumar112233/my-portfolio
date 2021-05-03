@@ -40,3 +40,8 @@
         margin: 0 auto;
     }
 }
+@media screen and (max-width: 372px){
+    .projects img{
+        height: 150px;
+    }
+}
