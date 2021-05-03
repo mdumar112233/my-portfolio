@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import picture from '../../images/Gallery_1606626778263-min(1)(1).png';
+import picture from '../../images/circle-cropped.png';
 import './TopBaner.css';
 import linkedin from '../../images/linkedin.png';
 import facebook from '../../images/facebook.png';
