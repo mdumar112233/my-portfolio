@@ -6,7 +6,7 @@
     margin-left: 20px;
 }
 .collapsed{
-    width: -1% !important;
+    width: unset !important;
 }
 .menu .menu-link:hover{
     color: #FF0077 !important; 

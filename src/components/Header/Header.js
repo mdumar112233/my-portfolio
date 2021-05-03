@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header-container">
             <div className='container'>
-                <Navbar expand="lg" style={{width: '100%',height: '65px',color: 'red'}}>
+                <Navbar expand="lg" style={{width: '440px',height: '65px',color: 'red'}}>
                 <Navbar.Brand style={{fontSize: '30px', fontWeight: 'bold', color: '#fff'}} href="/home">U</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
