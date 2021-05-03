@@ -15,11 +15,11 @@ const Contact = () => {
                 <h4>Get In Touch</h4>
                 <div className="contact-form mt-5">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <input className='mb-4 w-50' type='name' {...register("exampleRequired", { required: true })} /> <br/>
+                    <input className='mb-4 w-50 input' type='name' {...register("exampleRequired", { required: true })} /> <br/>
                     {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
-                    <input className='mb-4 w-50' type='email' {...register("exampleRequired", { required: true })} /> <br/>
+                    <input className='mb-4 w-50 input' type='email' {...register("exampleRequired", { required: true })} /> <br/>
                     {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
-                    <textarea className='mb-4 w-50' type='password' {...register("exampleRequired", { required: true })} /> <br/>
+                    <textarea className='mb-4 w-50 input' type='password' {...register("exampleRequired", { required: true })} /> <br/>
                     {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
                     <input className='submit-btn' type="submit" value='submit'/>
                     </form>

@@ -11,7 +11,7 @@
     top: 65px;
     left: 0;
     width: 100%;
-    height: 972px;
+    height: 600px;
     background: #111111;
     opacity: .85;
 }
@@ -68,7 +68,11 @@
 .get-in-touch:hover{
     border: 2px solid #FF0077;
 }
-.social-icon{
+.social-icon-1{
+    z-index: 2;
+    display: none;
+}
+.social-icon-2{
     z-index: 2;
 }
 
@@ -76,9 +80,14 @@
     .my-title{
         margin-top: 10px;
     }
-    .social-icon{
-        margin-top: 20rem;
-        position: absolute;
+    .overlay{
+        height: 820px;
+    }
+    .social-icon-1{
+        display: block;
+    }
+    .social-icon-2{
+        display: none;
     }
     .my-img img{
         height: 350px;

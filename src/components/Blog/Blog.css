@@ -5,3 +5,17 @@
 .card-img img{
     height: 168px;
 }
+
+
+@media screen and (max-width: 768px){
+    .card-img{
+        margin: 20px auto;
+        width: 410px !important;
+    }
+}
+@media screen and (max-width: 470px){
+    .card-img{
+        margin: 20px auto;
+        width: 100% !important;
+    }
+}

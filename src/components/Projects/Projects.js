@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="col-md-6">
                 <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment11} class="card-img-top" alt=""/>
-                    <div class="card-body" style={{backgroundColor: '#172A45', height: '330px'}}>
+                    <div class="card-body" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">Ak Industry</h3>
                         <p class="card-text">This is single page construction service web app where people can pic any service for their own building or Already made. We provide multiple services.</p>
                         <div className='technology'>
@@ -30,7 +30,7 @@ const Projects = () => {
                             <span>Firebase</span>
                             <span>Bootstrap4</span>
                         </div>
-                        <div className='d-flex'>
+                        <div className='d-flex all-link'>
                             <div className="github mt-5 me-3">
                                 <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/ak-industry-assignment-11-client">
                                     <img src={github} alt=""/>
@@ -48,7 +48,7 @@ const Projects = () => {
                     <div className="col-md-6">
                     <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment9} alt=""/>
-                    <div class="card-body" style={{backgroundColor: '#172A45', height: '330px'}}>
+                    <div class="card-body" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">One Call Riders</h3>
                         <p class="card-text">There people can take a ride with their choose vehicle and write location to show in the map.There have so many other feature like firebase Authentication, google map etc.</p>
                         <div className='technology'>
@@ -76,7 +76,7 @@ const Projects = () => {
                 <div className="col-md-6">
                 <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
                     <img src={assignment8} alt=""/>
-                    <div class="card-body" style={{backgroundColor: '#172A45', height: '330px'}}>
+                    <div class="card-body" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">Soccer Master League</h3>
                         <p class="card-text">This is a simple Soccer league web app.There people can choose any league to know about this league full details show dynamic.This web site make with popular React.js framework.</p>
                         <div className='technology'>

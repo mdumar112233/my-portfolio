@@ -35,16 +35,22 @@ const TopBaner = () => {
                             }}        
                         />
                     </div>
+
                     <div className='mt-4 about'>
                         <button className='about-me-btn me-3' type='button'>About me</button>
                         <span><a rel="noreferrer" href='https://drive.google.com/uc?export=download&id=17z45BnAgosSL1GyXQHLQ3-IRxh-zksdq' className='get-in-touch'>Download CV</a></span>
                     </div>
+                    <div className='social text-center mt-5 social-icon-1'>
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mdumar.faruk.3139241"><img src={facebook} alt=""/></a>
+                        <span><a target="_blank" rel="noreferrer" href="https://github.com/mdumar112233"><img src={github} alt=""/></a></span>
+                        <span><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/umar-faruk-89a480185/"><img src={linkedin} alt=""/></a></span>
+                </div>
                 </div>
                 <div className="col-md-6  my-img">
                     {/* <div className="outline"></div> */}
                     <img src={picture} alt=""/>
                 </div>
-                <div className='social text-center mt-5 social-icon'>
+                <div className='social text-center mt-5 social-icon-2'>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mdumar.faruk.3139241"><img src={facebook} alt=""/></a>
                         <span><a target="_blank" rel="noreferrer" href="https://github.com/mdumar112233"><img src={github} alt=""/></a></span>
                         <span><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/umar-faruk-89a480185/"><img src={linkedin} alt=""/></a></span>
