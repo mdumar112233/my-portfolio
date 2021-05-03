@@ -1,5 +1,7 @@
 .projects{
     color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .projects-container{
     height: auto;
@@ -9,8 +11,7 @@
 .projects-img img{
     width: 420px;
     height: 330px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 10px;
 }
 .technology{
     display: flex;

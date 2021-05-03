@@ -1,26 +1,32 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
 import './Contact.css';
 import linkedin from '../../images/linkedin.png';
 import facebook from '../../images/facebook.png';
 import github from '../../images/github(2).png';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_u1v9t1k', 'template_x0v7euk', e.target, 'user_mGrgqB8w92Vhy03ZjoX8f')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+    };
     return (
         <div className='contact-container'>
             <div className="text-center text-white">
             <h2 style={{color: '#FF0077',fontWeight: 'bold',paddingTop: '40px'}}>Contact</h2>
                 <h4>Get In Touch</h4>
                 <div className="contact-form mt-5">
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <input className='mb-4 w-50 input' type='name' {...register("exampleRequired", { required: true })} /> <br/>
-                    {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
-                    <input className='mb-4 w-50 input' type='email' {...register("exampleRequired", { required: true })} /> <br/>
-                    {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
-                    <textarea className='mb-4 w-50 input' type='password' {...register("exampleRequired", { required: true })} /> <br/>
-                    {errors.exampleRequired && <p style={{color: 'red'}}>This field is required</p>}
+                <form onSubmit={handleSubmit}>
+                    <input className='mb-4 w-50 input' type="name" name='name' placeholder='Enter your name'/> <br/>
+                    <input className='mb-4 w-50 input' type="email" name='email' placeholder='Enter your email'/> <br/>
+                    <textarea className='mb-4 w-50 input' type="text" name='text' placeholder='Text here'/> <br/>
                     <input className='submit-btn' type="submit" value='submit'/>
                     </form>
                 </div>
