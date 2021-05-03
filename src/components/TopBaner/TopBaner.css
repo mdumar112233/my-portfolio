@@ -4,14 +4,14 @@
     background-attachment: fixed;
     min-height: 600px;
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 .overlay{
     position: absolute;
     top: 65px;
     left: 0;
     width: 100%;
-    height: 600px;
+    height: 972px;
     background: #111111;
     opacity: .85;
 }
@@ -20,6 +20,7 @@
 }
 .my-img img{
     height: 350px;
+    width: 350px;
 }
 .my-img .outline{
     outline: 2px solid #fff;
@@ -69,4 +70,30 @@
 }
 .social-icon{
     z-index: 2;
+}
+
+@media screen and (max-width: 768px){
+    .my-title{
+        margin-top: 10px;
+    }
+    .social-icon{
+        margin-top: 20rem;
+        position: absolute;
+    }
+    .my-img img{
+        height: 350px;
+        width: 350px;
+    }
+} 
+@media screen and (max-width: 578px){
+    .my-img img{
+        height: 350px;
+        width: 350px;
+    }
+}
+@media screen and (max-width: 430px){
+    .my-img img{
+        height: 350px;
+        width: 100%;
+    }
 }

@@ -4,6 +4,7 @@
 .projects-container{
     height: auto;
     background-color: #EBEBEB;
+    padding-bottom: 40px;
 }
 .projects-img img{
     width: 420px;
