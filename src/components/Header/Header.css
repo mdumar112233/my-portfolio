@@ -5,7 +5,7 @@
     color: #fff!important;
     margin-left: 20px;
 }
-.collapsed{
+.navbar > .collapsed{
     width: unset !important;
 }
 .menu .menu-link:hover{
