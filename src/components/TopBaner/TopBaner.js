@@ -12,7 +12,7 @@ const TopBaner = () => {
             <div className="overlay"></div>
             <div className='container'>
             <div className="row flex-column-reverse flex-md-row text-center">
-                <div className="col-md-6 my-title">
+                <div className="my-title">
                     <h1><span style={{color: '#FF0077'}}>Hi,</span> I'm Md Umar Faruk</h1>
                     <div className='mt-4'>
                         <ReactTypingEffect
@@ -45,10 +45,6 @@ const TopBaner = () => {
                         <span><a target="_blank" rel="noreferrer" href="https://github.com/mdumar112233"><img src={github} alt=""/></a></span>
                         <span><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/umar-faruk-89a480185/"><img src={linkedin} alt=""/></a></span>
                 </div>
-                </div>
-                <div className="col-md-6  my-img">
-                    {/* <div className="outline"></div> */}
-                    <img src={picture} alt=""/>
                 </div>
                 <div className='social text-center mt-5 social-icon-2'>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mdumar.faruk.3139241"><img src={facebook} alt=""/></a>
