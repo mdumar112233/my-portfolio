@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import picture from '../../images/circle-cropped.png';
 import './TopBaner.css';
 import linkedin from '../../images/linkedin.png';
 import facebook from '../../images/facebook.png';
@@ -17,7 +16,7 @@ const TopBaner = () => {
                     <div className='mt-4'>
                         <ReactTypingEffect
                             text={["Web Developer", "Programmer"]}
-                            cursorRenderer={cursor => <h4 style={{color: '#fff'}}>{cursor}</h4>}
+                            cursorRenderer={cursor => <h4 style={{color: '#FF0077'}}>{cursor}</h4>}
                             displayTextRenderer={(text, i) => {
                             return (
                                 <h4>
@@ -26,7 +25,7 @@ const TopBaner = () => {
                                     return (
                                     <span
                                         key={key}
-                                        style={{color: '#fff', fontFamily: "'Lora', serif"}}
+                                        style={{color: '#FF0077', fontFamily: "'Lora', serif"}}
                                     >{char}</span>
                                     );
                                 })}

@@ -2,11 +2,12 @@ import React from 'react';
 import assignment11 from '../../images/akIndustry.png';
 import assignment9 from '../../images/assginment-9.png';
 import assignment8 from '../../images/assignment-8.png';
+import assignment10 from '../../images/assignment10.png';
 import github from '../../images/github(1).png';
 import link from '../../images/foreign(1).png';
-import './Projects.css';
+import Footer from '../Footer/Footer';
 
-const Projects = () => {
+const AllProjects = () => {
     return (
         <div className='projects-container'>
             <div className="container">
@@ -42,6 +43,32 @@ const Projects = () => {
                                 </a>
                             </div>
                     </div>
+                    </div>
+                </div>
+                </div>
+                <div className="col-md-6">
+                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
+                    <img src={assignment10} className='rounded-top' alt=""/>
+                    <div class="card-body rounded-bottom" style={{backgroundColor: '#172A45', height: 'auto'}}>
+                        <h3 class="card-title">Learn Something New</h3>
+                        <p class="card-text">A single-page web app where people can buy any new book with order detail user can see their all checkout order information. Admin can add a new book or delete any book from the store. Authentication by firebase, using node.js for server data load. Database for MongDB.</p>
+                        <div className='technology'>
+                            <span>React.js</span>
+                            <span>React Router</span>
+                            <span>Bootstrap4</span>
+                        </div>
+                        <div className='d-flex'>
+                            <div className="github mt-4 ml-2 me-3">
+                                <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/soccer-master-assignment-8">
+                                    <img src={github} alt=""/>
+                                </a>
+                            </div>
+                            <div className="live-site mt-4">
+                                <a target='_blank' rel="noreferrer" href="https://604a31a785e99b09988f5055--silly-hamilton-0c53fc.netlify.app/">
+                                    <img src={link} alt=""/>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -99,10 +126,14 @@ const Projects = () => {
                     </div>
                 </div>
                 </div>
+                </div>
             </div>
+            <div className='mb-0' style={{marginBottom: '-100px'}}>
+            <Footer></Footer>
             </div>
         </div>
+        
     );
 };
 
-export default Projects;
+export default AllProjects;

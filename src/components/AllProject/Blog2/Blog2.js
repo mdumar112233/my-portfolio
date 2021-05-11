@@ -1,12 +1,11 @@
 import React from 'react';
-import blog1  from '../../images/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg';
-import blog2  from '../../images/jsblog-2.jpg';
-import blog3  from '../../images/3909258.jpg';
-import './Blog.css';
-import Footer from '../Footer/Footer';
+import blog1  from '../../../images/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg';
+import blog2  from '../../../images/jsblog-2.jpg';
+import blog3  from '../../../images/3909258.jpg';
+import Footer from '../../Footer/Footer';
 
 
-const Blog = () => {
+const Blog2 = () => {
     return (
         <div className='blog-container'>
             <div className="container">
@@ -47,8 +46,9 @@ const Blog = () => {
                 </div>
             </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
 
-export default Blog;
+export default Blog2;

@@ -2,6 +2,7 @@ import React from 'react';
 import SkillBar from 'react-skillbars';
 import './About.css';
 import picture from  '../../images/Gallery_1606626778263(1).png';
+import Footer from '../Footer/Footer';
 
 const skills = [
     {type: "Javascript", level: 85},
@@ -17,7 +18,8 @@ const skills = [
 
 const About = () => {
     return (
-        <div className='container about-container'>
+        <div>
+            <div className='container about-container'>
             <div className="text-center mb-5">
                 <h2 style={{color: '#FF0077'}}>About</h2>
                 <h3>Let me introduce myself</h3>
@@ -38,6 +40,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Footer></Footer>
+    </div>
     );
 };
 
