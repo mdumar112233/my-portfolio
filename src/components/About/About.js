@@ -18,8 +18,8 @@ const skills = [
 
 const About = () => {
     return (
-        <div>
-            <div className='container about-container'>
+        <div className='about-container'>
+            <div className='container'>
             <div className="text-center mb-5">
                 <h2 style={{color: '#FF0077'}}>About</h2>
                 <h3>Let me introduce myself</h3>
@@ -31,16 +31,18 @@ const About = () => {
                     </div>
                     <h6>Positive driven and confident individual with learning new technology. Interested in the position of Web Developer(front-end), web development experience, and strong familiarity with JavaScript,React.js, Bootstrap4, HTML5, CSS3, and as well as collaborative skills in a team environment.</h6>
                 </div>
-                <div className="col-md-6 skills">
+                <div className="col-md-6 skills"  style={{height: 'auto'}}>
                     <h3>Skill</h3>
                     <p>Here is my all skills, with this skills i make my all projects and learn about that more.</p>
-                    <div>
+                    <div style={{height: 'auto'}}>
                     <SkillBar skills={skills} height={'20px'}/>
                     </div>
                 </div>
             </div>
         </div>
+        <div>
         <Footer></Footer>
+        </div>
     </div>
     );
 };

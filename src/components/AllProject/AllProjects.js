@@ -47,7 +47,7 @@ const AllProjects = () => {
                 </div>
                 </div>
                 <div className="col-md-6">
-                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
+                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment10} className='rounded-top' alt=""/>
                     <div class="card-body rounded-bottom" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">Learn Something New</h3>
@@ -104,7 +104,7 @@ const AllProjects = () => {
                 </div>
                 </div>
                 <div className="col-md-6">
-                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: '530px'}}>
+                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment8} className='rounded-top' alt=""/>
                     <div class="card-body rounded-bottom" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">Soccer Master League</h3>

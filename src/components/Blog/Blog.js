@@ -30,7 +30,7 @@ const Blog = () => {
                         <img src={blog2} alt=""/>
                     <div class="card-body">
                         <h4 class="card-title">JavaScript Important Topic</h4>
-                        <p class="card-text">try catch is important think to run a code on browser with error handling. Our expectation....</p>
+                        <p class="card-text">try catch is important think to run a code on browser with error....</p>
                         <a href='https://mdumarfaruk187326.medium.com/javascript-important-topic-efab0bba19f4' rel='noreferrer' target='_blank'  class="btn btn-primary" style={{backgroundColor: '#FF0077', border: 0}}>Read more</a>
                     </div>
                     </div>
