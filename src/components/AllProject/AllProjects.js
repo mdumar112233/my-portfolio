@@ -51,7 +51,7 @@ const AllProjects = () => {
                     <img src={assignment10} className='rounded-top' alt=""/>
                     <div class="card-body rounded-bottom" style={{backgroundColor: '#172A45', height: 'auto'}}>
                         <h3 class="card-title">Learn Something New</h3>
-                        <p class="card-text">A single-page web app where people can buy any new book with order detail user can see their all checkout order information. Admin can add a new book or delete any book from the store. Authentication by firebase, using node.js for server data load. Database for MongDB.</p>
+                        <p class="card-text">This full-stack application people can buy any new book with order detail user can see their all checkout order information. Admin can add a new book or delete any book from the store.</p>
                         <div className='technology'>
                             <span>React.js</span>
                             <span>Node.js</span>
