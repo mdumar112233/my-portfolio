@@ -94,7 +94,7 @@ const Projects = () => {
                                 </a>
                             </div>
                             <div className="live-site mt-4">
-                                <a target='_blank' rel="noreferrer" href="https://react-assignment-9.web.app/home">
+                                <a target='_blank' rel="noreferrer" href="https://react-assignment-9.web.app">
                                     <img src={link} alt=""/>
                                 </a>
                             </div>

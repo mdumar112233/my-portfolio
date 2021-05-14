@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6f6f963f.chunk.css",
-    "main.js": "/static/js/main.5dcd7103.chunk.js",
-    "main.js.map": "/static/js/main.5dcd7103.chunk.js.map",
+    "main.js": "/static/js/main.20622b7b.chunk.js",
+    "main.js.map": "/static/js/main.20622b7b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5948029d.js",
     "runtime-main.js.map": "/static/js/runtime-main.5948029d.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/akIndustry.9a555cce.png": "/static/media/akIndustry.9a555cce.png",
     "static/media/assginment-9.229b94ca.png": "/static/media/assginment-9.229b94ca.png",
     "static/media/assignment-8.5825a11f.png": "/static/media/assignment-8.5825a11f.png",
-    "static/media/assignment10.e1756e89.png": "/static/media/assignment10.e1756e89.png",
+    "static/media/assignment10.a8c9ecc9.png": "/static/media/assignment10.a8c9ecc9.png",
     "static/media/TopBaner.css": "/static/media/intro-bg.1a8c5844.jpg",
     "static/media/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.b67dc788.jpg": "/static/media/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.b67dc788.jpg",
     "static/media/jsblog-2.d5e4fdf3.jpg": "/static/media/jsblog-2.d5e4fdf3.jpg"
@@ -29,6 +29,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.5e3d5910.chunk.js",
     "static/css/main.6f6f963f.chunk.css",
-    "static/js/main.5dcd7103.chunk.js"
+    "static/js/main.20622b7b.chunk.js"
   ]
 }
