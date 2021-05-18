@@ -16,7 +16,7 @@ const Header = () => {
                         <Nav.Link className='menu-link' href="/work">Work</Nav.Link>
                         <Nav.Link className='menu-link' href="/blog">Blog</Nav.Link>
                         <Nav.Link className='menu-link'  href="/contact">Contact</Nav.Link>
-                        <Nav.Link className='menu-link resume-btn' rel="noreferrer" target='_blank'  href="https://drive.google.com/file/d/17z45BnAgosSL1GyXQHLQ3-IRxh-zksdq/view?usp=sharing">Resume</Nav.Link>
+                        <Nav.Link className='menu-link resume-btn' rel="noreferrer" target='_blank'  href="https://drive.google.com/file/d/16YGCyRtMc0oHz_qNfNBCGwuZiI4RDVvG/view?usp=sharing">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>

@@ -37,7 +37,7 @@ const TopBaner = () => {
 
                     <div className='mt-4 about'>
                         <button className='about-me-btn me-3' type='button'>About me</button>
-                        <span><a rel="noreferrer" href='https://drive.google.com/uc?export=download&id=17z45BnAgosSL1GyXQHLQ3-IRxh-zksdq' className='get-in-touch'>Download CV</a></span>
+                        <span><a rel="noreferrer" href='https://drive.google.com/uc?export=download&id=16YGCyRtMc0oHz_qNfNBCGwuZiI4RDVvG' className='get-in-touch'>Download CV</a></span>
                     </div>
                     <div className='social text-center mt-5 social-icon-1'>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mdumar.faruk.3139241"><img src={facebook} alt=""/></a>
