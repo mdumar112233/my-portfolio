@@ -4,6 +4,7 @@ import assignment9 from '../../images/assginment-9.png';
 import assignment8 from '../../images/assignment-8.png';
 import assignment10 from '../../images/assignment10.png';
 import github from '../../images/github(1).png';
+import royalGuest from '../../images/royalGuest.png';
 import link from '../../images/foreign(1).png';
 import Footer from '../Footer/Footer';
 
@@ -75,6 +76,37 @@ const AllProjects = () => {
                     </div>
                 </div>
                 </div>
+
+                <div className="col-md-6">
+                <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
+                    <img src={royalGuest} className='rounded-top' alt=""/>
+                    <div class="card-body rounded-bottom" style={{backgroundColor: '#172A45', height: 'auto'}}>
+                        <h3 class="card-title">Royal Guest</h3>
+                        <p class="card-text">Royal Guest is the full-stack web application for hotel service. There user can search for a hotel and find all available hotel and select for next step. We provide there High level user authentication with google firebase for login. Then we collect data from user and store it in database.</p>
+                        <div className='technology'>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>firebase</span>
+                            <span>Bootstrap4</span>
+                        </div>
+                        <div className='d-flex'>
+                            <div className="github mt-4 ml-2 me-3">
+                                <a target='_blank' rel="noreferrer" href="https://github.com/mdumar112233/royal-guest-full-stact-project/tree/main/client">
+                                    <img src={github} alt=""/>
+                                </a>
+                            </div>
+                            <div className="live-site mt-4">
+                                <a target='_blank' rel="noreferrer" href="https://royal-guest-team.web.app/">
+                                    <img src={link} alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
                     <div className="col-md-6">
                     <div class="card mb-3 projects mt-5" style={{maxWidth: '480px', height: 'auto'}}>
                     <img src={assignment9} className='rounded-top' alt=""/>
